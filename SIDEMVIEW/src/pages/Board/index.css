@@ -1,0 +1,80 @@
+
+
+.body-board {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.botao-board {
+  margin-bottom: 20px;
+}
+
+.botao-stage {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  color: #1890ff;
+}
+
+
+.column {
+  width: 220px;
+  height: 120%;
+  padding: 10px;
+  background-color: #ebecf0;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.column h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.demand-list {
+  display: flex;
+}
+
+.demand {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+
+
+.demand-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+.icon-wrapper {
+  margin-left: auto;
+}
+
+
+/* Estilos para ícones */
+.icon-wrapper {
+  visibility: hidden;
+  top: 50%;
+  right: 10px;
+  transform: translate(50%, -50%);
+  position: absolute;
+}
+
+.demand:hover .icon-wrapper {
+  visibility: visible;
+}
+
+
